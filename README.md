@@ -18,7 +18,7 @@ Book Finder è un'applicazione web che consente agli utenti di scoprire libri in
 
 - **HTML**
 - **CSS**
-- **JavaScript
+- **JavaScript**
 
 
 ## Struttura del progetto 
@@ -29,7 +29,7 @@ script.js: Funzionalità di ricerca e gestione dei risultati.
 ## Contribuire 
 Contributi, suggerimenti e feedback sono benvenuti! 
 
-LINK per la visualizzazione del Progetto: 
+LINK per la visualizzazione del Progetto: https://riccardocru7.github.io/Book-Finder/
 
 Autore:
 
