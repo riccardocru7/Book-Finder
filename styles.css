@@ -1,0 +1,56 @@
+body {
+font-family: Arial, sans-serif;
+display: flex;
+justify-content:center;
+align-items: center;
+min-height: 100vh;
+background-image: url('images/sfondo.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin: 0;
+
+
+
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(255,255,255,0.9);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba (0,0,0,0.1);
+
+}
+
+input, button {
+    padding:10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+button{
+background-color: #0455ac;
+color:white;
+cursor:pointer;
+
+
+}
+
+#results {
+    margin-top: 20px;
+    text-align: left;
+
+}
+.book {
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
