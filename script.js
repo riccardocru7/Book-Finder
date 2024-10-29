@@ -14,6 +14,29 @@ document.getElementById('searchButton').addEventListener('click', () => {
   }
 });
 
+document.getElementById('category').addEventListener('keydown', (event) => {
+  const category = event.target.value.trim();
+
+  if (event.key === 'Enter') {  
+    if (category) {
+      searchBooks(category);  
+    } else {
+      alert("Per favore inserisci una categoria");
+    }
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
 function searchBooks(category) {
   const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=subject:${category}`;
   console.log("URL generato: ", apiUrl);
@@ -43,7 +66,6 @@ function searchBooks(category) {
 function displayBooks(books) {
   const resultsDiv = document.getElementById('results');
   resultsDiv.innerHTML = '';  
-  console.log("Visualizzazione dei libri: ", books);
 
   books.forEach(book => {
     const bookDiv = document.createElement('div');
@@ -55,27 +77,46 @@ function displayBooks(books) {
     const description = book.volumeInfo.description ? book.volumeInfo.description : "Descrizione non disponibile";
     
     bookDiv.innerHTML = `
-      <img src="${thumbnail}" alt="Copertina di ${title}" />
-      <strong>${title}</strong><br>by ${authors}<br>
-      <em>${description}</em>
+      <img src="${thumbnail}" alt="Copertina di ${title}" class="book-thumbnail"/>
+      <strong class="book-title">${title}</strong><br>
+      <span class="book-authors">${authors}</span><br>
+      <p class="book-description">${description}</p>
     `;
-    bookDiv.addEventListener('click', () => fetchBookDescription(book.id));
+
+    
+    if (book.id) {
+      bookDiv.addEventListener('click', () => fetchBookDescription(book.id));
+    } else {
+      console.warn(`Nessun ID disponibile per il libro: ${title}`);
+    }
+
     resultsDiv.appendChild(bookDiv);
   });
 }
 
 
+
 function fetchBookDescription(bookKey) {
   const bookUrl = `https://openlibrary.org${bookKey}.json`;
-  console.log("Richiesta della descrizione del libro da: ", bookUrl);  
 
-  fetch(bookUrl)
-    .then(response => response.json())
-    .then(data => {
-      console.log("Dati della descrizione del libro: ", data);
-      alert(data.description ? data.description : "Descrizione non disponibile.");
-    })
-    .catch(error => {
-      console.error("Errore nel recupero della descrizione del libro:", error);
-    });
+  try {
+    fetch(bookUrl)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`Errore HTTP! Stato: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        alert(data.description ? data.description : "Descrizione non disponibile.");
+      })
+      .catch(error => {
+        console.error("Errore nel recupero della descrizione del libro:", error);
+        alert("Impossibile recuperare la descrizione del libro. Riprova più tardi.");
+      });
+  } catch (error) {
+    console.error("Errore nella funzione fetchBookDescription:", error);
+    alert("Errore inatteso durante il recupero della descrizione del libro.");
+  }
 }
+
