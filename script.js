@@ -1,39 +1,36 @@
+import axios from 'axios';
 import _ from 'lodash';
-import debounce from 'lodash/debounce'; // Importa solo debounce da lodash
-
-// Funzione di ricerca con debounce applicato, attende 300 ms dopo l'ultimo input
-const debouncedSearchBooks = debounce(searchBooks, 300);
 
 // Evento al click del bottone di ricerca
-document.getElementById('searchButton').addEventListener('click', () => {
+document.getElementById('searchButton').addEventListener('click', async () => {
   const category = document.getElementById('category').value.trim();
   
   console.log("Bottone cliccato! Categoria inserita: ", category);
   
   if (category) {
     console.log("Inizio ricerca per categoria: ", category);
-    searchBooks(category);
+    await searchBooks(category); // Usa la funzione searchBooks con async/await
   } else {
     alert("Per favore inserisci una categoria");
     console.error("Nessuna categoria inserita!");
   }
 });
 
-// Evento di input nel campo di ricerca con debounce applicato
-document.getElementById('category').addEventListener('input', () => {
+// Evento di input nel campo di ricerca senza debounce
+document.getElementById('category').addEventListener('input', async () => {
   const category = document.getElementById('category').value.trim();
   if (category) {
-    debouncedSearchBooks(category); // Usa la funzione con debounce
+    await searchBooks(category); // Usa la funzione searchBooks con async/await
   }
 });
 
 // Evento per avviare la ricerca con 'Enter'
-document.getElementById('category').addEventListener('keydown', (event) => {
+document.getElementById('category').addEventListener('keydown', async (event) => {
   const category = event.target.value.trim();
 
   if (event.key === 'Enter') {  
     if (category) {
-      searchBooks(category);  
+      await searchBooks(category); // Usa la funzione searchBooks con async/await
     } else {
       alert("Per favore inserisci una categoria");
     }
@@ -41,30 +38,22 @@ document.getElementById('category').addEventListener('keydown', (event) => {
 });
 
 // Funzione di ricerca libri tramite API
-function searchBooks(category) {
+async function searchBooks(category) {
   const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=subject:${category}`;
   console.log("URL generato: ", apiUrl);
 
-  fetch(apiUrl)
-    .then(response => {
-      console.log("Risposta dell'API: ", response);
-      if (!response.ok) {
-        throw new Error(`Errore HTTP! Stato: ${response.status}`);
-      }
-      return response.json();
-    })
-    .then(data => {
-      console.log("Dati ricevuti:", data);
-      if (data.items && data.items.length > 0) {
-        displayBooks(data.items);
-      } else {
-        alert("Nessun libro trovato in questa categoria.");
-      }
-    })
-    .catch(error => {
-      console.error("Errore nel recupero dei dati:", error);
-      alert("Errore nel recupero dei dati, riprova.");
-    });
+  try {
+    const response = await axios.get(apiUrl);
+    console.log("Risposta dell'API: ", response);
+    if (response.data.items && response.data.items.length > 0) {
+      displayBooks(response.data.items);
+    } else {
+      alert("Nessun libro trovato in questa categoria.");
+    }
+  } catch (error) {
+    console.error("Errore nel recupero dei dati:", error);
+    alert("Errore nel recupero dei dati, riprova.");
+  }
 }
 
 // Funzione per visualizzare i libri
@@ -103,15 +92,9 @@ function fetchBookDescription(bookKey) {
   const bookUrl = `https://openlibrary.org${bookKey}.json`;
 
   try {
-    fetch(bookUrl)
+    axios.get(bookUrl)
       .then(response => {
-        if (!response.ok) {
-          throw new Error(`Errore HTTP! Stato: ${response.status}`);
-        }
-        return response.json();
-      })
-      .then(data => {
-        alert(data.description ? data.description : "Descrizione non disponibile.");
+        alert(response.data.description ? response.data.description : "Descrizione non disponibile.");
       })
       .catch(error => {
         console.error("Errore nel recupero della descrizione del libro:", error);
