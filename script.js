@@ -1,9 +1,14 @@
+import _ from 'lodash';
+import debounce from 'lodash/debounce'; // Importa solo debounce da lodash
+
+// Funzione di ricerca con debounce applicato, attende 300 ms dopo l'ultimo input
+const debouncedSearchBooks = debounce(searchBooks, 300);
+
+// Evento al click del bottone di ricerca
 document.getElementById('searchButton').addEventListener('click', () => {
   const category = document.getElementById('category').value.trim();
-
   
   console.log("Bottone cliccato! Categoria inserita: ", category);
-
   
   if (category) {
     console.log("Inizio ricerca per categoria: ", category);
@@ -14,6 +19,15 @@ document.getElementById('searchButton').addEventListener('click', () => {
   }
 });
 
+// Evento di input nel campo di ricerca con debounce applicato
+document.getElementById('category').addEventListener('input', () => {
+  const category = document.getElementById('category').value.trim();
+  if (category) {
+    debouncedSearchBooks(category); // Usa la funzione con debounce
+  }
+});
+
+// Evento per avviare la ricerca con 'Enter'
 document.getElementById('category').addEventListener('keydown', (event) => {
   const category = event.target.value.trim();
 
@@ -26,17 +40,7 @@ document.getElementById('category').addEventListener('keydown', (event) => {
   }
 });
 
-
-
-
-
-
-
-
-
-
-
-
+// Funzione di ricerca libri tramite API
 function searchBooks(category) {
   const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=subject:${category}`;
   console.log("URL generato: ", apiUrl);
@@ -63,6 +67,7 @@ function searchBooks(category) {
     });
 }
 
+// Funzione per visualizzare i libri
 function displayBooks(books) {
   const resultsDiv = document.getElementById('results');
   resultsDiv.innerHTML = '';  
@@ -83,7 +88,6 @@ function displayBooks(books) {
       <p class="book-description">${description}</p>
     `;
 
-    
     if (book.id) {
       bookDiv.addEventListener('click', () => fetchBookDescription(book.id));
     } else {
@@ -94,8 +98,7 @@ function displayBooks(books) {
   });
 }
 
-
-
+// Funzione per ottenere la descrizione del libro
 function fetchBookDescription(bookKey) {
   const bookUrl = `https://openlibrary.org${bookKey}.json`;
 
@@ -119,4 +122,3 @@ function fetchBookDescription(bookKey) {
     alert("Errore inatteso durante il recupero della descrizione del libro.");
   }
 }
-
