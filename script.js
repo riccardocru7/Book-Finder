@@ -1,4 +1,3 @@
-// Evento al click del bottone di ricerca, con debounce applicato
 document.getElementById('searchButton').addEventListener('click', _.debounce(async () => {
   const category = document.getElementById('category').value.trim();
 
@@ -11,9 +10,8 @@ document.getElementById('searchButton').addEventListener('click', _.debounce(asy
     alert("Per favore inserisci una categoria");
     console.error("Nessuna categoria inserita!");
   }
-}, 300)); // Delay di debounce impostato a 300ms
+}, 300)); 
 
-// Evento per avviare la ricerca con il tasto 'Enter', con debounce applicato
 document.getElementById('category').addEventListener('keydown', _.debounce(async (event) => {
   const category = event.target.value.trim();
 
@@ -25,9 +23,8 @@ document.getElementById('category').addEventListener('keydown', _.debounce(async
       alert("Per favore inserisci una categoria");
     }
   }
-}, 300)); // Delay di debounce impostato a 300ms
+}, 300)); 
 
-// Funzione di ricerca libri tramite API di Google Books
 async function searchBooks(category) {
   const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=subject:${category}`;
   console.log("URL generato: ", apiUrl);
@@ -46,7 +43,6 @@ async function searchBooks(category) {
   }
 }
 
-// Funzione per visualizzare i libri e assegnare l'evento di click per la descrizione
 function displayBooks(books) {
   const resultsDiv = document.getElementById('results');
   resultsDiv.innerHTML = '';
@@ -73,7 +69,6 @@ function displayBooks(books) {
   });
 }
 
-// Funzione per ottenere la descrizione dettagliata del libro tramite Open Library
 async function fetchBookDescription(title, authors) {
   const apiUrl = `https://openlibrary.org/search.json?title=${encodeURIComponent(title)}&author=${encodeURIComponent(authors)}`;
 
