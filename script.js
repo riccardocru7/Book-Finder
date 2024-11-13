@@ -1,41 +1,62 @@
+let startIndex = 0; // Indice di partenza per la paginazione
+const maxResults = 10; // Numero di risultati per pagina
+
 document.getElementById('searchButton').addEventListener('click', _.debounce(async () => {
+  startIndex = 0; // Resetta l'indice per una nuova ricerca
   const category = document.getElementById('category').value.trim();
 
   console.log("Bottone cliccato! Categoria inserita: ", category);
 
   if (category) {
     console.log("Inizio ricerca per categoria: ", category);
+    document.getElementById('results').innerHTML = ''; // Svuota i risultati precedenti
     await searchBooks(category);
   } else {
     alert("Per favore inserisci una categoria");
     console.error("Nessuna categoria inserita!");
   }
-}, 300)); 
+}, 300));
 
 document.getElementById('category').addEventListener('keydown', _.debounce(async (event) => {
   const category = event.target.value.trim();
 
   if (event.key === 'Enter') {
+    startIndex = 0; // Resetta l'indice per una nuova ricerca
     if (category) {
       console.log("Inizio ricerca per categoria tramite 'Enter': ", category);
+      document.getElementById('results').innerHTML = ''; // Svuota i risultati precedenti
       await searchBooks(category);
     } else {
       alert("Per favore inserisci una categoria");
     }
   }
-}, 300)); 
+}, 300));
 
 async function searchBooks(category) {
-  const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=subject:${category}`;
+  const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=subject:${category}&startIndex=${startIndex}&maxResults=${maxResults}`;
   console.log("URL generato: ", apiUrl);
 
   try {
     const response = await axios.get(apiUrl);
     console.log("Risposta dell'API: ", response);
+
     if (response.data.items && response.data.items.length > 0) {
       displayBooks(response.data.items);
+      startIndex += maxResults; 
+      
+      const loadMoreContainer = document.getElementById('loadMoreContainer');
+      if (loadMoreContainer) {
+        document.getElementById('results').appendChild(loadMoreContainer);
+      }
     } else {
-      alert("Nessun libro trovato in questa categoria.");
+      alert("Nessun altro libro trovato in questa categoria.");
+    }
+
+    // Mostra il pulsante "Carica altri" se ci sono più risultati
+    if (response.data.totalItems > startIndex) {
+      showLoadMoreButton(category);
+    } else {
+      hideLoadMoreButton();
     }
   } catch (error) {
     console.error("Errore nel recupero dei dati:", error);
@@ -43,10 +64,9 @@ async function searchBooks(category) {
   }
 }
 
+
 function displayBooks(books) {
   const resultsDiv = document.getElementById('results');
-  resultsDiv.innerHTML = '';
-
   books.forEach(book => {
     const bookDiv = document.createElement('div');
     bookDiv.className = 'book';
@@ -64,9 +84,37 @@ function displayBooks(books) {
     `;
 
     bookDiv.addEventListener('click', () => fetchBookDescription(title, authors));
-
     resultsDiv.appendChild(bookDiv);
   });
+}
+
+function showLoadMoreButton(category) {
+  let loadMoreContainer = document.getElementById('loadMoreContainer');
+
+  if (!loadMoreContainer) {
+    loadMoreContainer = document.createElement('div');
+    loadMoreContainer.id = 'loadMoreContainer';
+    loadMoreContainer.style.textAlign = 'center'; // Centra il contenuto
+
+    const loadMoreButton = document.createElement('button');
+    loadMoreButton.id = 'loadMoreButton';
+    loadMoreButton.textContent = 'Carica altri';
+    loadMoreButton.addEventListener('click', async () => {
+      await searchBooks(category);
+      loadMoreContainer.scrollIntoView({ behavior: 'smooth' }); // Scrolla in modo fluido fino al pulsante
+    });
+
+    loadMoreContainer.appendChild(loadMoreButton);
+    document.getElementById('results').appendChild(loadMoreContainer);
+  }
+  loadMoreContainer.style.display = 'block';
+}
+
+function hideLoadMoreButton() {
+  const loadMoreButton = document.getElementById('loadMoreButton');
+  if (loadMoreButton) {
+    loadMoreButton.style.display = 'none';
+  }
 }
 
 async function fetchBookDescription(title, authors) {
