@@ -1,21 +1,19 @@
 {
     "name": "book-finder",
     "version": "1.0.0",
-    "description": "Book Finder è un'applicazione web che consente agli utenti di scoprire libri in base ai propri gusti letterari. Basta inserire un genere nella barra di ricerca (come \"fantasy\", \"horror\", ecc.) e Book Finder fornirà una lista di libri attinenti al genere scelto, con titolo, autore, copertina ed una piccola e breve descrizione.",
-    "main": "script.js",
+    "description": "Book Finder è un'applicazione web che consente agli utenti di scoprire libri in base ai propri gusti letterari.",
+    "scripts": {
+        "clean": "rm -rf .parcel-cache dist",
+        "start": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
     "dependencies": {
-        "axios": "^0.21.4",
+        "axios": "^1.7.7",
         "lodash": "^4.17.21"
     },
     "devDependencies": {
-        "vite": "^3.2.11"
-    },
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "preview": "vite preview"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
+        "buffer": "^6.0.3",
+        "parcel": "^2.10.0",
+        "process": "^0.11.10"
+    }
 }
