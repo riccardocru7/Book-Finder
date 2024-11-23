@@ -2,6 +2,7 @@
     "name": "book-finder",
     "version": "1.0.0",
     "description": "Book Finder è un'applicazione web che consente agli utenti di scoprire libri in base ai propri gusti letterari.",
+    "main": "src/index.js",
     "scripts": {
         "clean": "rm -rf .parcel-cache dist",
         "start": "parcel src/index.html",
