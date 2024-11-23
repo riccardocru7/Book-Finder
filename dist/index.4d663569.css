@@ -1,0 +1,91 @@
+body {
+  background-image: url("sfondo.213fad8c.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 6px rgba (0, 0, 0, .1);
+  background-color: #ffffffe6;
+  border-radius: 8px;
+  padding: 50px;
+}
+
+input, button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0455ac;
+}
+
+#results {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.book {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.book-thumbnail {
+  cursor: pointer;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+.book-title {
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.book-authors {
+  color: #555;
+  margin-bottom: 10px;
+  font-style: italic;
+  display: block;
+}
+
+.book-description {
+  color: #333;
+  font-size: .9em;
+}
+
+#loadMoreContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#loadMoreButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0455ac;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+/*# sourceMappingURL=index.4d663569.css.map */
