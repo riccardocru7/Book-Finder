@@ -1,5 +1,5 @@
 // Importazione di axios e lodash
-import axios from 'axios';
+import axios  from 'axios';
 import _ from 'lodash';
 
 // Variabili globali per la paginazione

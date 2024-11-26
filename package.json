@@ -2,9 +2,8 @@
     "name": "book-finder",
     "version": "1.0.0",
     "description": "Book Finder è un'applicazione web che consente agli utenti di scoprire libri in base ai propri gusti letterari.",
-    "main": "src/index.js",
     "scripts": {
-        "clean": "rm -rf .parcel-cache dist",
+        "clean": "rmdir /s /q .parcel-cache dist || del /s /q .parcel-cache dist",
         "start": "parcel src/index.html",
         "build": "parcel build src/index.html",
         "deploy": "npm run build && gh-pages -d dist"
@@ -18,5 +17,6 @@
         "gh-pages": "^6.2.0",
         "parcel": "^2.10.0",
         "process": "^0.11.10"
-    }
+    },
+    "browserslist": "> 0.25%, not dead"
 }
