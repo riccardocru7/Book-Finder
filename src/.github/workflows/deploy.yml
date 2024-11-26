@@ -1,0 +1,36 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Questo farà partire il deploy quando si fa push sul branch main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout del codice
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Setup Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'  # Puoi usare una versione diversa di Node.js
+
+      # Installare le dipendenze
+      - name: Install dependencies
+        run: npm install
+
+      # Costruire il progetto
+      - name: Build project
+        run: npm run build
+
+      # Pubblicare i file nella branch gh-pages
+      - name: Deploy to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages  # Il branch su cui pubblicare
+          folder: dist  # La cartella contenente i file generati dal build
