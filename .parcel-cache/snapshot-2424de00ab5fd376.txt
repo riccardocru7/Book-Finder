@@ -1,4 +1,4 @@
-11740
+11746
 87C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\msgpackr\package.json133768411080878866 0
 119C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\document-evaluate-xpath.js133768410978817627 0
 174C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\@parcel\transformer-babel\LICENSE133768355989479384 0
@@ -31,7 +31,7 @@
 80C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\domelementtype133768411003274786 1
 83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\type-fest\license133768411106278668 0
 116C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\core\test\PublicMutableBundleGraph.test.js133768410856587468 0
-65C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\package.json133768422315737467 0
+65C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\package.json133771229483578394 0
 99C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\fast-glob\out\readers\stream.d.ts133768411012499785 0
 112C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb.c133768411037107792 0
 96C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\regenerator-runtime\runtime.js133768411101910658 0
@@ -50,7 +50,7 @@
 171C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\chrome-trace-event\LICENSE.txt133768356190094669 0
 108C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\css-counters.js133768410974077325 0
 85C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\email-addresses\lib133768411008319931 1
-83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@msgpackr-extract133768404150305640 1
+83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@msgpackr-extract133771216453144799 1
 163C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\fp\trimStart.js133768356253488813 0
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\countBy.js133768411059087820 0
 106C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@swc\helpers\src\_is_native_function.mjs133768410956614761 0
@@ -89,7 +89,7 @@
 88C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\entities\lib\escape.js133768411009044356 0
 89C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\escalade\dist\index.mjs133768411011098310 0
 174C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\htmlparser2\lib\esm\Parser.js.map133768356225822411 0
-57C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist133768410845517102 1
+57C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist133771262443873097 1
 93C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\transformer-postcss133768410917940719 1
 102C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lmdb\dependencies\lz4\lib\lz4frame.h133768411038610249 0
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\resolve-from\license133768411101910658 0
@@ -100,7 +100,7 @@
 106C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\utility-types\dist\aliases-and-guards.js133768411108233841 0
 118C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\runtime-js\src\helpers\browser\css-loader.js133768410868212647 0
 183C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\json-parse-even-better-errors\package.json133768356228156089 0
-65C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules133768410846701504 1
+65C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules133771216453094796 1
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\braces\lib\expand.js133768410970049275 0
 98C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\utils\src\escape-html.js133768410925943209 0
 87C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\subtract.js133768411067410028 0
@@ -112,9 +112,9 @@
 78C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lmdb\LICENSE133768411035483811 0
 174C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\@parcel\graph\lib\ContentGraph.js133768355918468067 0
 173C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\@swc\helpers\esm\_export_star.js133768356056643419 0
-70C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\package-lock.json133768404152818582 0
+70C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\package-lock.json133771216455765513 0
 73C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\globals133768411017280492 1
-73C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\ieee754133768411023281936 1
+73C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\ieee754133771216452634687 1
 106C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\webworkers.js133768410989743782 0
 98C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\cosmiconfig\dist\readFile.js.map133768411001597748 0
 71C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\fastq133768411013639467 1
@@ -130,7 +130,7 @@
 164C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\posthtml-render\license133768356266989470 0
 172C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\caniuse-lite\data\regions\GA.js133768356140476355 0
 80C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\async\internal133768410962792924 1
-67C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\src\index.html133768423408581339 0
+67C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\src\index.html133771211715599962 0
 74C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@nodelib133768351415493499 1
 165C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\commander\lib\command.js133768356194989296 0
 119C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\focusin-focusout-events.js133768410979943377 0
@@ -156,7 +156,7 @@
 80C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\braces\LICENSE133768410969893003 0
 184C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\caniuse-lite\data\features\readonly-attr.js133768356111812352 0
 158C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\fp\pick.js133768356251335322 0
-65C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\src\index.js133768423216193093 0
+65C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\src\index.js133771208726646999 0
 92C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\transformer-js\lib133768410917442987 1
 71C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\chalk133768410998411217 1
 92C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\findIndexFrom.js133768411060588099 0
@@ -243,10 +243,10 @@
 215C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\optional.js133768356261323287 0
 110C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\core\test\fixtures\duplicate-targets133768410857323822 1
 120C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\css-file-selector-button.js133768410974889889 0
-84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.package-lock.json133768410846701504 0
+84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.package-lock.json133771216457635938 0
 87C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\flatMapDeep.js133768411056996581 0
 105C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@swc\helpers\cjs\_wrap_native_super.cjs133768410950283963 0
-71C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@lmdb133768404150325639 1
+71C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@lmdb133771216453144799 1
 163C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\fp\overEvery.js133768356250987569 0
 83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\setWith.js133768411074810420 0
 93C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\cosmiconfig\dist\merge.d.ts133768411001441496 0
@@ -254,7 +254,7 @@
 162C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\fp\parseInt.js133768356251154513 0
 107C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\reporter-dev-server\src\Server.js133768410866983253 0
 156C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\@parcel\fs\test133768355918317105 1
-83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js\LICENSE133768410969736751 0
+83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js\LICENSE133771216452284629 0
 91C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\queue-microtask\README.md133768411101271373 0
 95C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\regenerator-runtime\README.md133768411101754403 0
 97C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\regions\AD.js133768410990349806 0
@@ -281,7 +281,7 @@
 102C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@swc\helpers\esm\_read_only_error.js133768410952779120 0
 97C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\profiler\lib\Trace.d.ts133768410865441589 0
 93C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\events\src\index.js133768410859277161 0
-75C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js133768410969893003 1
+75C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js133771216452804704 1
 84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\nullthrows\LICENSE133768411092302219 0
 75C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp133768411069861294 1
 102C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\source-map\dist\SourceMap.js133768410913454042 0
@@ -290,14 +290,14 @@
 94C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\posthtml-render\changelog.md133768411095765738 0
 110C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\iframe-sandbox.js133768410981078290 0
 164C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\_getPrototype.js133768356240321391 0
-73C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel133768404150295642 1
+73C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel133771216453134786 1
 93C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\domutils\lib\traversal.d.ts133768411006445230 0
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\postcss-value-parser133768411095573539 1
 172C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\caniuse-lite\data\regions\GW.js133768356142808977 0
 166C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\supports-color\browser.js133768356274654717 0
 217C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\lib\detect-libc.js133768356263821149 0
 92C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\cloneDeepWith.js133768411058764477 0
-70C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@swc133768404150265599 1
+70C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@swc133771216453114788 1
 161C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\parse-json\readme.md133768356264987349 0
 97C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\update-browserslist-db\utils.js133768411107946462 0
 88C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\isWeakSet.js133768411063659653 0
@@ -328,7 +328,7 @@
 101C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@swc\helpers\_\_array_like_to_array133768410942134647 1
 166C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\form-data\lib\populate.js133768356222327287 0
 82C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\globals\index.js133768411017109333 0
-82C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\ieee754\index.js133768411023114642 0
+82C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\ieee754\index.js133771216452344600 0
 77C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\array-union133768410959578190 1
 158C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\matches.js133768356256318373 0
 125C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\posthtml\node_modules\dom-serializer\lib\esm\index.d.ts.map133768411096234524 0
@@ -364,7 +364,7 @@
 78C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp.js133768411057256031 0
 85C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\invert.js133768411062067294 0
 190C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile133768356232820939 0
-72C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer133768410970674288 1
+72C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer133771216452894723 1
 75C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\callsites133768410970961249 1
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\_arrayPush.js133768411041432991 0
 127C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\client-hints-dpr-width-viewport.js133768410972781155 0
@@ -631,7 +631,7 @@
 87C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\chalk\source\index.js133768410998411217 0
 100C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133768411022038179 0
 107C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@swc\helpers\_\_class_private_method_init133768410942931428 1
-86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js\index.d.ts133768410969736751 0
+86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js\index.d.ts133771216452824720 0
 137C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages.ps1133768411079297058 0
 119C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\core\test\fixtures\config-malformed\.parcelrc133768410856899972 0
 95C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\domutils\lib\esm\traversal.js133768411005240634 0
@@ -776,7 +776,7 @@
 73C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\p-limit133768411093286922 1
 115C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\utils\test\input\sourcemap\source-root.js133768410927235362 0
 71C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\p-try133768411093793604 1
-84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\browser.js133768411100782959 0
+84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\browser.js133771216392009908 0
 81C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\unzip.js133768411076931175 0
 102C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\ordered-binary\assets\powers-dre.png133768411092924278 0
 93C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\_basePropertyDeep.js133768411044066145 0
@@ -822,7 +822,7 @@
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\micromatch\README.md133768411078435870 0
 81C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\posthtml-render133768411095922042 1
 162C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\posthtml\node_modules133768356270322350 1
-73C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process133768411100944218 1
+73C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process133771216392179956 1
 108C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\fast-glob\out\providers\filters\entry.d.ts133768411011896983 0
 165C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\_cloneDataView.js133768356239155273 0
 141C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\package.json133768411079820782 0
@@ -1421,7 +1421,7 @@
 92C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\takeLastWhile.js133768411067632116 0
 177C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\@parcel\transformer-css\package.json133768355990478355 0
 80C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\head.js133768411070098146 0
-84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js\index.js133768410969893003 0
+84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js\index.js133771216452444627 0
 132C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\posthtml\node_modules\entities\lib\generated\decode-data-html.d.ts133768411099312989 0
 105C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\posthtml\node_modules\entities\lib\maps133768411099599703 1
 151C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\domhandler133768356209659957 1
@@ -1468,7 +1468,7 @@
 104C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\chrome-trace-event\dist\trace-event.js133768410998690927 0
 100C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\cosmiconfig\dist\readFile.d.ts.map133768411001597748 0
 80C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\parcel\LICENSE133768411093793604 0
-82C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\index.js133768411100782959 0
+82C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\index.js133771216392039922 0
 100C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\fast-glob\out\providers\async.d.ts133768411011567802 0
 77C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\timsort\src133768411105401966 1
 163C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\fp\flowRight.js133768356248154996 0
@@ -1676,7 +1676,7 @@
 161C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\fp\toLower.js133768356253316978 0
 90C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\semver\ranges\outside.js133768411104194969 0
 102C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@swc\helpers\cjs\_async_iterator.cjs133768410945682515 0
-85C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer\package.json133768410970674288 0
+85C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer\package.json133771216452654689 0
 98C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@swc\helpers\esm\_export_star.js133768410951874217 0
 101C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\htmlparser2\lib\WritableStream.d.ts133768411022098703 0
 91C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\semver\ranges\simplify.js133768411104326190 0
@@ -1698,7 +1698,7 @@
 117C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\css-container-queries.js133768410974077325 0
 117C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\source-map\parcel_sourcemap_node\Cargo.toml133768410914297757 0
 117C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\core\test\fixtures\custom-format-infer-type133768410857278349 1
-86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\package.json133768411100944218 0
+86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\package.json133771216391581150 0
 99C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\core\test\fixtures\parcel133768410858265500 1
 191C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\caniuse-lite\data\features\subresource-bundling.js133768356113476348 0
 83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\p-limit\readme.md133768411093286922 0
@@ -1846,7 +1846,7 @@
 89C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\combined-stream\License133768410999279221 0
 182C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\@swc\helpers\esm\_class_name_tdz_error.js133768356055645028 0
 90C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\_charsEndIndex.js133768411045443393 0
-83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\.eslintrc133768411100782959 0
+83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\.eslintrc133771216392189972 0
 200C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_copy.c133768356232321711 0
 97C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\regions\GA.js133768410992612556 0
 95C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\domutils\lib\esm\feeds.js.map133768411004029198 0
@@ -1977,18 +1977,18 @@
 166C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\htmlnano\docs\sidebars.js133768356223320946 0
 95C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\fs-extra\lib\json\jsonfile.js133768411015686995 0
 160C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\fp\meanBy.js133768356250487997 0
-81C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\LICENSE133768411100782959 0
+81C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\LICENSE133771216391969899 0
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\forEach.js133768411061128867 0
 83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\forEach.js133768411057099768 0
 87C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\_baseValues.js133768411045055673 0
 97C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\transformer-postcss\src133768410918253262 1
-83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\README.md133768411100782959 0
+83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\README.md133771216391919916 0
 159C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\_reorder.js133768356241655633 0
 100C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lines-and-columns\build\index.d.ts133768411035327563 0
 104C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lmdb\dependencies\lz4\lib\liblz4.pc.in133768411038275506 0
 88C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\_baseFlatten.js133768411042556456 0
 113C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\loading-lazy-attr.js133768410983104097 0
-81C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\test.js133768411100944218 0
+81C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\process\test.js133771216392169944 0
 92C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\form-data\lib\form_data.js133768411014778328 0
 111C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\media-fragments.js133768410983609182 0
 84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\union.js133768411068577126 0
@@ -1996,6 +1996,7 @@
 100C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\cosmiconfig\dist\cacheWrapper.d.ts133768411000610378 0
 89C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\posthtml-render\license133768411095922042 0
 108C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\make-dir\node_modules\semver\bin\semver.js133768411077941889 0
+75C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.dc90bbcd.js133771262443132912 0
 94C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\posthtml-render\package.json133768411095922042 0
 96C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\postcss-value-parser\README.md133768411095275780 0
 91C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\posthtml-render\readme.md133768411095922042 0
@@ -2328,7 +2329,7 @@
 178C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\caniuse-lite\data\features\details.js133768356098474810 0
 83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\isEmpty.js133768411070778212 0
 96C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\core\src\serializer.js133768410856023452 0
-83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\ieee754\README.md133768411023114642 0
+83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\ieee754\README.md133771216452584654 0
 84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\mime-types\LICENSE133768411078775083 0
 147C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\posthtml\node_modules\dom-serializer\node_modules\entities\lib\maps\entities.json133768411097111580 0
 128C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\posthtml\node_modules\dom-serializer\lib\foreignNames.d.ts.map133768411096390825 0
@@ -2827,7 +2828,7 @@
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\isEmpty.js133768411062599401 0
 157C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\fp\seq.js133768356252155191 0
 187C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\caniuse-lite\data\features\multibackgrounds.js133768356109473713 0
-80C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer\LICENSE133768410970518025 0
+80C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer\LICENSE133771216452334595 0
 91C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\sortedLastIndex.js133768411075097130 0
 89C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\js-yaml\dist\js-yaml.js133768411024952732 0
 92C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\msgpackr\dist\index.min.js133768411080253834 0
@@ -3679,7 +3680,7 @@
 89C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\_castFunction.js133768411045333232 0
 165C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\ordered-binary\README.md133768356264322038 0
 156C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\isNil.js133768356255488023 0
-83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer\AUTHORS.md133768410970518025 0
+83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer\AUTHORS.md133771216452814719 0
 85C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\_castPath.js133768411045333232 0
 179C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\posthtml\node_modules\entities\LICENSE133768356268987302 0
 97C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\regions\BJ.js133768410991093209 0
@@ -3966,7 +3967,7 @@
 83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\bind.js133768411058446136 0
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\bindAll.js133768411058466142 0
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\bindKey.js133768411058496140 0
-91C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js\base64js.min.js133768410969736751 0
+91C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js\base64js.min.js133771216452354596 0
 88C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lightningcss\README.md133768411034858762 0
 116C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\runtime-js\lib\helpers\node\wasm-loader.js133768410868056345 0
 98C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\fs\src\NodeFS.browser.js133768410860048680 0
@@ -4257,7 +4258,7 @@
 82C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\min.js133768411064452903 0
 112C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@swc\helpers\_\_non_iterable_rest\package.json133768410944096787 0
 105C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\gh-pages\node_modules\commander\esm.mjs133768411016420564 0
-68C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.html133768410845168911 0
+68C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.html133771262443122927 0
 84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\mixin.js133768411064628299 0
 102C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\entities\lib\esm\decode_codepoint.js133768411009275628 0
 91C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\core\src\utils.js133768410856184378 0
@@ -4436,7 +4437,7 @@
 84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\js-tokens\index.js133768411024576892 0
 83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\uniq.js133768411068733363 0
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\globals\package.json133768411017280492 0
-86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\ieee754\package.json133768411023281936 0
+86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\ieee754\package.json133771216452434613 0
 87C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\uniqueId.js133768411068733363 0
 97C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\regions\CK.js133768410991430819 0
 175C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\node-addon-api\tools\check-napi.js133768356263486970 0
@@ -4463,7 +4464,7 @@
 102C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@swc\helpers\esm\_define_property.js133768410951796071 0
 84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\xorBy.js133768411069673097 0
 84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\globals\index.d.ts133768411017109333 0
-84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\ieee754\index.d.ts133768411023114642 0
+84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\ieee754\index.d.ts133771216452694693 0
 96C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\optimizer-htmlnano\lib133768410861788388 1
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\lodash\fp\xorWith.js133768411069703111 0
 161C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\base64-js\index.d.ts133768356082312538 0
@@ -4709,7 +4710,7 @@
 168C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\fp\dropRightWhile.js133768356247322788 0
 85C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\json5\dist\index.js133768411032019867 0
 90C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\json5\dist\index.min.mjs133768411032019867 0
-81C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\ieee754\LICENSE133768411022945810 0
+81C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\ieee754\LICENSE133771216452214570 0
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\json5\dist\index.mjs133768411032019867 0
 84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\chalk\package.json133768410998411217 0
 108C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\json-parse-even-better-errors\CHANGELOG.md133768411031863570 0
@@ -4795,7 +4796,7 @@
 191C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\caniuse-lite\data\features\css-case-insensitive.js133768356089983377 0
 89C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\axios\lib\core\Axios.js133768410966113465 0
 86C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\is-arrayish\index.js133768411023900012 0
-83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer\index.d.ts133768410970674288 0
+83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer\index.d.ts133771216452914729 0
 93C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\transformer-css\lib133768410916525729 1
 109C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\console-basic.js133768410972946433 0
 85C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\is-arrayish\LICENSE133768411023859993 0
@@ -4959,7 +4960,7 @@
 100C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\htmlnano\lib\modules\minifyCss.mjs133768411020256529 0
 129C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\core\test\fixtures\custom-format-infer-ext\package.json133768410857231667 0
 171C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\@parcel\watcher\src\DirTree.cc133768356014812288 0
-85C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js\README.md133768410969736751 0
+85C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js\README.md133771216452724694 0
 100C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\htmlnano\lib\modules\minifySvg.cjs133768411020412824 0
 110C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\css-namespaces.js133768410976066771 0
 101C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\htmlnano\lib\modules\minifyUrls.mjs133768411020569047 0
@@ -6104,7 +6105,7 @@
 118C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\css-content-visibility.js133768410974077325 0
 165C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\nanoid\index.browser.cjs133768356262823290 0
 197C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\@parcel\core\test\fixtures\invalid-distpath\package.json133768355904141246 0
-82C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer\README.md133768410970674288 0
+82C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer\README.md133771216452874724 0
 111C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\css-crisp-edges.js133768410974233549 0
 111C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@swc\helpers\_\_write_only_error\package.json133768410945277341 0
 114C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\css-default-pseudo.js133768410974233549 0
@@ -6466,7 +6467,7 @@
 101C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\xhtml.js133768410990056298 0
 110C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\caniuse-lite\data\features\xml-serializer.js133768410990299206 0
 84C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\callsites\index.js133768410970894765 0
-81C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer\index.js133768410970674288 0
+81C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\buffer\index.js133771216452554651 0
 85C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\browserslist\cli.js133768410970361798 0
 87C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\browserslist\index.js133768410970518025 0
 76C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\braces\lib133768410970205506 1
@@ -6479,7 +6480,7 @@
 89C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\braces\lib\stringify.js133768410970205506 0
 85C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\braces\lib\utils.js133768410970205506 0
 164C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\is-arrayish\.travis.yml133768356226489282 0
-88C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js\package.json133768410969893003 0
+88C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base64-js\package.json133771216452614662 0
 103C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@swc\helpers\src\_super_prop_base.mjs133768410957726529 0
 83C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base-x\LICENSE.md133768410969580470 0
 85C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\base-x\package.json133768410969580470 0
@@ -7323,6 +7324,7 @@
 89C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\workers\LICENSE133768410929389702 0
 167C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\@parcel\watcher\src\shared133768356015474423 1
 85C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\workers\src133768410930598454 1
+79C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.dc90bbcd.js.map133771262443813093 0
 103C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\workers\test\cpuCount.test.js133768410930598454 0
 194C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\caniuse-lite\data\features\font-variant-alternates.js133768356101481475 0
 98C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@parcel\workers\test\integration133768339539253695 1
@@ -8345,7 +8347,7 @@
 92C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@lezer\common\package.json133768410847326534 0
 214C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\@parcel\transformer-react-refresh-wrap\src\ReactRefreshWrapTransformer.js133768355999140964 0
 94C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@lezer\common\dist\index.cjs133768410847170296 0
-78C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\favicon.be4b0254.ico133768410843890597 0
+78C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\favicon.be4b0254.ico133771229494133292 0
 96C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@lezer\common\dist\index.d.cts133768410847326534 0
 100C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@babel\helper-validator-identifier133768410847170296 1
 117C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\@babel\helper-validator-identifier\lib\index.js.map133768410847014021 0
@@ -8382,6 +8384,7 @@
 147C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\buffer133768356083308939 1
 197C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\030-config.md133768356223320946 0
 150C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\callsites133768356083978136 1
+80C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.448cab24.css.map133771262443703095 0
 146C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\clone133768356193157390 1
 157C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\lodash\forOwn.js133768356245487818 0
 154C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\color-convert133768356193323044 1
@@ -9554,7 +9557,7 @@
 160C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\js-yaml\lib\type.js133768356227821315 0
 167C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\js-yaml\lib\type\binary.js133768356227821315 0
 165C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\js-yaml\lib\type\bool.js133768356227821315 0
-76C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.4d663569.css133768410844020264 0
+76C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.4d663569.css133771229497284111 0
 164C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\js-yaml\lib\type\int.js133768356227821315 0
 166C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\js-yaml\lib\type\merge.js133768356227987737 0
 165C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\js-yaml\lib\type\omap.js133768356227987737 0
@@ -9604,7 +9607,9 @@
 174C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\htmlparser2\lib\WritableStream.js133768356225654392 0
 178C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\htmlparser2\lib\WritableStream.js.map133768356225654392 0
 175C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\htmlparser2\lib\esm\index.d.ts.map133768356225988933 0
+75C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.d9008a2b.js133771262443152933 0
 169C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\htmlparser2\lib\esm\index.js133768356225988933 0
+79C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.d9008a2b.js.map133771262443823088 0
 173C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\htmlparser2\lib\esm\index.js.map133768356225988933 0
 172C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\htmlparser2\lib\esm\Parser.d.ts133768356225654392 0
 170C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.cache\gh-pages\https!github.com!riccardocru7!Book-Finder.git\node_modules\htmlparser2\lib\esm\Parser.js133768356225654392 0
@@ -11726,16 +11731,17 @@
 93C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.bin\update-browserslist-db133768410846545243 0
 97C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\node_modules\.bin\update-browserslist-db.ps1133768410846701504 0
 78C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\favicon.88402922.ico133768410843693652 0
-78C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\favicon.8843f572.ico133768410843860581 0
-80C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.4d663569.css.map133768410844020264 0
+78C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\favicon.8843f572.ico133771262384924592 0
+76C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.448cab24.css133771262443132912 0
+80C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.4d663569.css.map133771229497354138 0
 76C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.5362c0ca.css133768410844119450 0
 80C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.5362c0ca.css.map133768410844149470 0
-75C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.975ef6c8.js133768410844300655 0
-79C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.975ef6c8.js.map133768410844441991 0
+75C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.975ef6c8.js133771229506576184 0
+79C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.975ef6c8.js.map133771229506736231 0
 79C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.a47a9b30.js.map133768410844598252 0
 76C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.b7fb90b3.css133768410844754537 0
 75C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.c001da17.js133768410844754537 0
 79C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\index.c001da17.js.map133768410845132134 0
-77C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\sfondo.213fad8c.jpg133768410845266301 0
+77C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\sfondo.213fad8c.jpg133771229494303334 0
 77C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\sfondo.935b9a2a.jpg133768410845366297 0
-77C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\sfondo.baf655d2.jpg133768410845527116 0
+77C:\Users\Riccardo Crupi\Documents\GitHub\Book-Finder\dist\sfondo.baf655d2.jpg133771262384924592 0
