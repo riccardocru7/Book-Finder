@@ -1,12 +1,12 @@
-// Importazione di axios e lodash
+
 import axios  from 'axios';
 import _ from 'lodash';
 
-// Variabili globali per la paginazione
+
 let startIndex = 0; // Indice di partenza per la paginazione
 const maxResults = 10; // Numero di risultati per pagina
 
-// Event listener per il pulsante di ricerca
+
 document.getElementById('searchButton').addEventListener('click', _.debounce(async () => {
   startIndex = 0; // Resetta l'indice per una nuova ricerca
   const category = document.getElementById('category').value.trim();
@@ -23,7 +23,7 @@ document.getElementById('searchButton').addEventListener('click', _.debounce(asy
   }
 }, 300));
 
-// Event listener per la ricerca tramite il tasto 'Enter'
+
 document.getElementById('category').addEventListener('keydown', _.debounce(async (event) => {
   const category = event.target.value.trim();
 
@@ -39,7 +39,7 @@ document.getElementById('category').addEventListener('keydown', _.debounce(async
   }
 }, 300));
 
-// Funzione per cercare i libri tramite l'API di Google Books
+
 async function searchBooks(category) {
   const apiUrl = `https://www.googleapis.com/books/v1/volumes?q=subject:${category}&startIndex=${startIndex}&maxResults=${maxResults}`;
   console.log("URL generato: ", apiUrl);
@@ -60,7 +60,7 @@ async function searchBooks(category) {
       alert("Nessun altro libro trovato in questa categoria.");
     }
 
-    // Mostra il pulsante "Carica altri" se ci sono più risultati
+    
     if (response.data.totalItems > startIndex) {
       showLoadMoreButton(category);
     } else {
@@ -72,7 +72,7 @@ async function searchBooks(category) {
   }
 }
 
-// Funzione per visualizzare i libri
+
 function displayBooks(books) {
   const resultsDiv = document.getElementById('results');
   books.forEach(book => {
@@ -96,7 +96,7 @@ function displayBooks(books) {
   });
 }
 
-// Funzione per mostrare il pulsante "Carica altri"
+
 function showLoadMoreButton(category) {
   let loadMoreContainer = document.getElementById('loadMoreContainer');
 
@@ -119,7 +119,7 @@ function showLoadMoreButton(category) {
   loadMoreContainer.style.display = 'block';
 }
 
-// Funzione per nascondere il pulsante "Carica altri"
+
 function hideLoadMoreButton() {
   const loadMoreButton = document.getElementById('loadMoreButton');
   if (loadMoreButton) {
@@ -127,7 +127,7 @@ function hideLoadMoreButton() {
   }
 }
 
-// Funzione per recuperare la descrizione di un libro da Open Library
+
 async function fetchBookDescription(title, authors) {
   const apiUrl = `https://openlibrary.org/search.json?title=${encodeURIComponent(title)}&author=${encodeURIComponent(authors)}`;
 
